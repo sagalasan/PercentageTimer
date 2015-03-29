@@ -1,0 +1,5 @@
+C:\Users\Christiaan\Box Sync\Workspace_A\PercentageTimer\app\build\intermediates\classes\debug
+C:\Users\Christiaan\Box Sync\Workspace_A\PercentageTimer\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-656cc3af4fed717308da0e64c3dcedf6954b8279.jar
+C:\Users\Christiaan\Box Sync\Workspace_A\PercentageTimer\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-87668c2ab2bb9b1a79e8f8d1f1df136b0b6e9a02.jar
+C:\Users\Christiaan\Box Sync\Workspace_A\PercentageTimer\app\build\intermediates\pre-dexed\debug\classes-495385e555c2526293f7bca55f2aa8df0c288cd9.jar
+C:\Users\Christiaan\Box Sync\Workspace_A\PercentageTimer\app\build\intermediates\pre-dexed\debug\classes-86bdb1a6c0050218241917b4f9fb4c3eb065d1fe.jar
