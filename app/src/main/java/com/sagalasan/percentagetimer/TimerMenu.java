@@ -138,6 +138,7 @@ public class TimerMenu extends ActionBarActivity implements AdapterView.OnItemCl
         else if(id == R.id.action_new)
         {
             Intent intent = new Intent(this, MainActivity.class);
+            intent.putExtra(TIMER_NEW, true);
             startActivity(intent);
             return true;
         }

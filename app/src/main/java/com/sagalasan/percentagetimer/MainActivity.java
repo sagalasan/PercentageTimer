@@ -29,6 +29,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     EditText editName;
     MyDBHandler dbHandler;
 
+    String timerName = "";
+
     GregorianCalendar sDate, fDate;
 
     private int mYear, mMonth, mDay, mHour, mMinute, mAmPm;
@@ -64,6 +66,15 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         fDate = new GregorianCalendar();
 
         fDate.set(Calendar.HOUR, fDate.get(Calendar.HOUR) + 1);
+
+        Intent intent = getIntent();
+        if(!intent.getBooleanExtra(TIMER_NEW, false))
+        {
+            timerName = intent.getStringExtra(TIMER_NAME);
+            sDate.setTimeInMillis(intent.getLongExtra(START_DATE, -1));
+            fDate.setTimeInMillis(intent.getLongExtra(END_DATE, -1));
+            editName.setText(timerName);
+        }
 
         txtStartDate.setText(returnDate(sDate));
         txtEndDate.setText(returnDate(fDate));
@@ -165,6 +176,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     public void startTimer(View view)
     {
+        dbHandler.deleteTimer(timerName);
         if(dbHandler.exists(editName.getText().toString()))
         {
             txtError.setVisibility(View.VISIBLE);

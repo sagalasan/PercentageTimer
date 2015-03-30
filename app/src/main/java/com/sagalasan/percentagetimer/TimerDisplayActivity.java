@@ -152,6 +152,16 @@ public class TimerDisplayActivity extends ActionBarActivity implements TimerData
         {
             return true;
         }
+        if (id == R.id.action_edit)
+        {
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.putExtra(TIMER_NEW, false);
+            intent.putExtra(TIMER_NAME, timerName);
+            intent.putExtra(START_DATE, sDate.getTimeInMillis());
+            intent.putExtra(END_DATE, fDate.getTimeInMillis());
+            startActivity(intent);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
