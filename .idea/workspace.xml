@@ -29,6 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="073a8930-add0-4466-8dac-1ebef1cfcecd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/sagalasan/percentagetimer/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/sagalasan/percentagetimer/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/TimerDisplayActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/TimerDisplayActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_timer_display.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_timer_display.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PercentageTimer.iws" />
@@ -62,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimerDisplayActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TimerDisplayActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/TimerDisplayActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="3944">
-              <caret line="156" column="65" selection-start-line="156" selection-start-column="65" selection-end-line="156" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.8835165" vertical-offset="3185" max-vertical-offset="4369">
+              <caret line="229" column="8" selection-start-line="229" selection-start-column="8" selection-end-line="229" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -85,10 +88,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimerMenu.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity_timer_display.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_timer_display.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.5925927" vertical-offset="5524" max-vertical-offset="6545">
+              <caret line="337" column="34" selection-start-line="337" selection-start-column="34" selection-end-line="337" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimerMenu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/TimerMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.829233" vertical-offset="0" max-vertical-offset="3111">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
               <caret line="140" column="45" selection-start-line="140" selection-start-column="45" selection-end-line="140" selection-end-column="45" />
               <folding />
             </state>
@@ -684,12 +700,12 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/MyDBHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_timer_display.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_timer_display.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/TimerData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/TimerMenu.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/TimerDisplayActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_timer_display.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/TimerDisplayActivity.java" />
       </list>
     </option>
   </component>
@@ -1103,7 +1119,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1120,7 +1136,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18701799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1196,15 +1212,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="6409">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#557#577#0" expanded="true" />
-            <element signature="e#1022#1036#0" expanded="true" />
-            <element signature="e#1285#1299#0" expanded="true" />
-            <element signature="e#1849#1866#0" expanded="true" />
-            <element signature="e#11756#11774#0" expanded="true" />
-            <element signature="e#12221#12235#0" expanded="true" />
-            <element signature="e#12482#12496#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1400,15 +1408,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1802">
           <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-          <folding>
-            <element signature="e#557#577#0" expanded="true" />
-            <element signature="e#1022#1036#0" expanded="true" />
-            <element signature="e#1285#1299#0" expanded="true" />
-            <element signature="e#1849#1866#0" expanded="true" />
-            <element signature="e#11756#11774#0" expanded="true" />
-            <element signature="e#12221#12235#0" expanded="true" />
-            <element signature="e#12482#12496#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,25 +1518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_timer_display.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12801205" vertical-offset="0" max-vertical-offset="6409">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#557#577#0" expanded="true" />
-            <element signature="e#1022#1036#0" expanded="true" />
-            <element signature="e#1285#1299#0" expanded="true" />
-            <element signature="e#1849#1866#0" expanded="true" />
-            <element signature="e#11756#11774#0" expanded="true" />
-            <element signature="e#12221#12235#0" expanded="true" />
-            <element signature="e#12482#12496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -1556,14 +1537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/TimerDisplayActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2216" max-vertical-offset="3944">
-          <caret line="156" column="65" selection-start-line="156" selection-start-column="65" selection-end-line="156" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="3825">
@@ -1574,8 +1547,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/TimerMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.829233" vertical-offset="0" max-vertical-offset="3111">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
           <caret line="140" column="45" selection-start-line="140" selection-start-column="45" selection-end-line="140" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_timer_display.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5925927" vertical-offset="5524" max-vertical-offset="6545">
+          <caret line="337" column="34" selection-start-line="337" selection-start-column="34" selection-end-line="337" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sagalasan/percentagetimer/TimerDisplayActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8835165" vertical-offset="3185" max-vertical-offset="4369">
+          <caret line="229" column="8" selection-start-line="229" selection-start-column="8" selection-end-line="229" selection-end-column="8" />
           <folding />
         </state>
       </provider>

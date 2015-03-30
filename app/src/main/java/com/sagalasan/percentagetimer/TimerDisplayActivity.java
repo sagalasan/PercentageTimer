@@ -29,6 +29,7 @@ public class TimerDisplayActivity extends ActionBarActivity implements TimerData
 
     TextView yearsNum, monthsNum, weeksNum, daysNum, hoursNum, minutesNum, secondsNum, millisecondsNum;
     TextView yearsDenum, monthsDenum, weeksDenum, daysDenum, hoursDenumm, minutesDenum, secondsDenum, millisecondsDenum;
+    TextView onePercent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -91,6 +92,8 @@ public class TimerDisplayActivity extends ActionBarActivity implements TimerData
         minutesDenum = (TextView) findViewById(R.id.minutes_denum);
         secondsDenum = (TextView) findViewById(R.id.seconds_denum);
         millisecondsDenum = (TextView) findViewById(R.id.milliseconds_denum);
+
+        onePercent = (TextView) findViewById(R.id.one_percent);
     }
 
     private void setTotals()
@@ -103,6 +106,8 @@ public class TimerDisplayActivity extends ActionBarActivity implements TimerData
         weeksDenum.setText(String.format("%.4f", (float)(fDateInMillis - sDateInMillis) / 1000 / 60 / 60 / 24 / 7));
         monthsDenum.setText(String.format("%.4f", (float)(fDateInMillis - sDateInMillis) / 1000 / 60 / 60 / 24 / 30));
         yearsDenum.setText(String.format("%.4f", (float)(fDateInMillis - sDateInMillis) / 1000 / 60 / 60 / 24 / 365));
+
+        onePercent.setText("One percent: " + returnTimeInterval(fDateInMillis - sDateInMillis));
     }
 
     Handler handler = new Handler();
@@ -211,6 +216,26 @@ public class TimerDisplayActivity extends ActionBarActivity implements TimerData
             result += min;
         }
         result += " " + amPm;
+        return result;
+    }
+
+    String returnTimeInterval(long interval)
+    {
+        String result = "";
+        long hours;
+        long minutes;
+        long seconds;
+        long days;
+
+        interval /= 100;
+
+        days = interval / 1000 / 60 / 60 / 24;
+        hours = (interval / 1000 / 60 / 60) % 24;
+        minutes = (interval / 1000 / 60) % 60;
+        seconds = (interval / 1000) % 60;
+
+        result = days + "::" + hours + ":" + minutes + ":" + seconds;
+
         return result;
     }
 

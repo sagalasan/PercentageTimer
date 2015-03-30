@@ -343,14 +343,14 @@ int id action_bar_spinner 0x7f080001
 int id action_bar_subtitle 0x7f08001f
 int id action_bar_title 0x7f08001e
 int id action_context_bar 0x7f080032
-int id action_edit 0x7f08005e
+int id action_edit 0x7f08005f
 int id action_menu_divider 0x7f080002
 int id action_menu_presenter 0x7f080003
 int id action_mode_bar 0x7f08002e
 int id action_mode_bar_stub 0x7f08002d
 int id action_mode_close_button 0x7f080020
-int id action_new 0x7f08005f
-int id action_settings 0x7f08005d
+int id action_new 0x7f080060
+int id action_settings 0x7f08005e
 int id activity_chooser_view_content 0x7f080021
 int id always 0x7f080016
 int id beginning 0x7f080013
@@ -391,6 +391,7 @@ int id name_error 0x7f080040
 int id never 0x7f080019
 int id none 0x7f08000e
 int id normal 0x7f08000a
+int id one_percent 0x7f08005c
 int id percent_bar 0x7f08004b
 int id percent_text 0x7f08004a
 int id progress_circular 0x7f080005
@@ -420,7 +421,7 @@ int id start_time_tv 0x7f080043
 int id start_timer_button 0x7f080049
 int id submit_area 0x7f08003c
 int id tabMode 0x7f08000b
-int id timer_list 0x7f08005c
+int id timer_list 0x7f08005d
 int id timer_name 0x7f08003f
 int id title 0x7f080027
 int id up 0x7f080008
